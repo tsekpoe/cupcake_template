@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicious Cupcakes</title>
+    <link rel="stylesheet" href="template.css" />
+    <link rel="stylesheet" href="sidebarControls.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebarControls">
+        <label for="containerBG">Container Background</label><br />
+        <input
+          type="color"
+          class="colorInput"
+          id="containerBG"
+          value="#ffffff"
+        /><br />
+        <label for="headingT">Header</label><br />
+        <input
+          type="color"
+          class="colorInput"
+          id="headingT"
+          value="#333333"
+        /><br />
+        <label for="contentT">Content Text</label><br />
+        <input
+          type="color"
+          class="colorInput"
+          id="contentT"
+          value="#666666"
+        /><br />
+        <label for="buttonBG">Button Background</label><br />
+        <input
+          type="color"
+          class="colorInput"
+          id="buttonBG"
+          value="#ff6347"
+        /><br />
+        <label for="buttonBG_hover">Button Background Hover</label><br />
+        <input
+          type="color"
+          class="colorInput"
+          id="buttonBG_hover"
+          value="#e53e3e"
+        /><br />
+        <label for="buttonT">Button Text</label><br />
+        <input
+          type="color"
+          class="colorInput"
+          id="buttonT"
+          value="#ffffff"
+        /><br />
+        <label for="buttonT_hover">Button Text Hover</label><br />
+        <input
+          type="color"
+          class="colorInput"
+          id="buttonT_hover"
+          value="#ffffff"
+        /><br />
+        <label for="CupcakeImg">Cupcake Image</label><br />
+        <select id="cupcakeSelect">
+          <option value="url(cupcakes/cupcake.jpg)">Cupcake 1</option>
+          <option value="url(cupcakes/cupcake2.jpg)">Cupcake 2</option>
+          <option value="url(cupcakes/cupcake3.jpg)">Cupcake 3</option>
+        </select>
+        <br />
+        <button class="reset" onclick="history.go()">Reset</button>
+      </div>
+
+      <!-- TEMPLATE -->
+      <div class="template">
+        <h1>MINI CUPCAKE WEBSITE TEMPLATE DESIGN</h1>
+        <div class="container">
+          <div class="content">
+            <h2 class="headingText">Delicious Cupcakes</h2>
+            <p class="contentText">
+              Indulgence doesn't get better than our handcrafted cupcakes. We're
+              here to help you experience the finest flavors with creations
+              inspired by the world's cuisines. That's why we craft treats that
+              savor!
+            </p>
+            <button class="button">Check Out Flavors</button>
+          </div>
+          <div class="cupcake-image"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+  <footer>
+    <p>
+      Blessing Tsekpoe Eyram | 2024 <br />
+      | <a href="https://www.github.com/tsekpoe">github</a>
+    </p>
+  </footer>
+</html>

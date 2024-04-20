@@ -1,0 +1,50 @@
+.sidebarControls {
+  width: calc(100% - var(--template-width));
+  padding: 20px;
+  color: white;
+  background-color: #272727;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.colorInput {
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  width: 40px;
+}
+
+.colorInput::-webkit-color-swatch{
+    border: 1px solid #00bbff;
+    border-radius: 10px;
+}
+
+.colorInput::-moz-color-swatch{
+    border: 1px solid #00bbff;
+    border-radius: 10px;
+}
+
+select{
+    border: 1px solid #00bbff;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px 0;
+    outline: none;
+}
+
+.reset{
+    margin-top: 20px;
+    padding: 7px;
+    cursor: pointer;
+    width: 10rem;
+    background-color: #9da3ff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+}
